@@ -1,0 +1,22 @@
+.about{
+    h1{
+        @include heading-text;
+    }
+
+    .card{
+        border: none;
+        box-shadow: 1px 5px 14px #eee;
+        // border: 1px solid $primary-color;
+
+        .card-header{
+            background: $primary-color;
+            color: $main-color;
+            border: none;
+        }
+        .card-body{
+            border: none;
+            background: $main-color;
+            color: $primary-color;
+        }
+    }
+}

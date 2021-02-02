@@ -1,0 +1,38 @@
+// $main-color: #012828;
+// $primary-color: #fca311;
+// $secondary-color: #ffffff;
+$main-color: #fff;
+$primary-color: #333;
+$secondary-color: #333;
+$shadow-color-1: #bbb;
+// $shadow-color-1: rgba(0, 0, 0, 0.699);
+// $shadow-color-1: rgba(255, 255, 255, 0.397);
+
+%a-text{
+    color: $primary-color;
+    letter-spacing: 2px;
+}
+
+%act-btn{
+    border-radius: 20px;
+    padding: 10px 13px;
+    transition: .5s;
+    width: 30px;
+}
+
+%act-btn:hover{
+    text-decoration: none;
+}
+
+
+@mixin heading-text() {
+    color: $primary-color;
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.active{
+    background-color: $primary-color;
+    color: $main-color;
+}
